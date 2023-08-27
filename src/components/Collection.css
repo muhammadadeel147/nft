@@ -1,0 +1,50 @@
+/* NFTCollection.css */
+
+.nft-collection-container {
+    text-align: center;
+    padding: 80px 0;
+    background-color: black;
+  }
+  
+  .nft-collection-container h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #fff;
+  }
+  
+  .nft-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .nft-card {
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    background-color: white;
+    flex-basis: calc(25% - 20px); /* 25% width with 20px margin */
+    background: linear-gradient(to bottom, #FF98A8, #A52489);
+
+
+  }
+  
+  .nft-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .nft-card p {
+    font-size: 1rem;
+    margin-top: 10px;
+    color:#fff;
+  }
+  
+  .nft-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  }
+  

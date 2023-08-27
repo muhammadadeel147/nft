@@ -1,0 +1,45 @@
+/* Navbar.css */
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: black; /* Adjust to your desired background color */
+    color: white; /* Adjust to your desired text color */
+  }
+  
+  .left-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .left-section h1 {
+    font-size: 64px;
+    margin-right: 20px;
+    background: linear-gradient(to right, #FF98A8, #A52489);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    transition: color 0.3s;
+  }
+  
+  .right-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .right-section a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 22px;
+  }
+  
+  .right-section a:last-child {
+    margin-right: 0;
+  }
+  .right-section a:hover {
+    color: #FF98A8; /* Change to your desired hover color */
+  }
+  

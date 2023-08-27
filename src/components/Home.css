@@ -1,0 +1,56 @@
+/* HomePage.css */
+
+.homepage-container {
+    padding: 100px 0;
+    background-color: black;
+    color: white;
+  }
+  
+  .content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 20px;
+  }
+  
+  .image-container {
+    flex: 1;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+
+  }
+  
+  .text-container {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .text-container h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .text-container p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+  }
+  
+  .discover-button {
+    background: linear-gradient(to right, #FF98A8, #A52489);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .discover-button:hover {
+    background: linear-gradient(to right, #A52489, #FF98A8);
+  }
+  
